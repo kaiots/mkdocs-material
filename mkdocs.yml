@@ -4,7 +4,7 @@ theme:
   features:
     - navigation.tabs
 #    - navigation.sections
-    - toc.integrate
+#    - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
@@ -13,6 +13,12 @@ theme:
     - content.code.copy
     - navigation.instant
   language: ru
+  plugin:
+    - social:
+        cards_layout: deault/variant
+
+
+
   palette:
     - scheme: default
       toggle:

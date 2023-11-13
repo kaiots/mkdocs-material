@@ -3,7 +3,7 @@ theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.sections
+#    - navigation.sections
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -11,6 +11,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - navigation.instant
   language: ru
   palette:
     - scheme: default

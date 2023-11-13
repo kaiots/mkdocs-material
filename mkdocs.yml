@@ -3,8 +3,8 @@ theme:
   name: material
   features:
     - navigation.tabs
-#    - navigation.sections
-#    - toc.integrate
+    - navigation.sections
+    - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
@@ -21,17 +21,19 @@ theme:
 
   palette:
     - scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/brightness-7 
         name: Switch to dark mode
       primary: teal
       accent: purple 
-    - scheme: slate 
+    - scheme: slate
+      primary: black
+      accent: indigo
       toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: teal
-      accent: lime
+        icon: material/brightness-4
+        name: Switch to light mode
 
 
 

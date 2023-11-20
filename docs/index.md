@@ -1,17 +1,16 @@
 # Установка Docker
 
-
-Some `code` goes here.
-
 ### Установите с помощью репозитория apt
 
-Перед первой установкой Docker Engine на новый хост-компьютер вам необходимо настроить репозиторий Docker apt. 
+!!! note "Примечание"
+    Перед первой установкой Docker Engine на новый хост-компьютер вам необходимо настроить репозиторий Docker apt. 
+    После этого вы можете установить и обновить Docker из репозитория.
 
-После этого вы можете установить и обновить Docker из репозитория.
+
 
 Настройте `apt` репозиторий Docker:
 
-```
+``` bash
 # Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
@@ -27,7 +26,7 @@ echo \
 sudo apt-get update
 ```
 Install the Docker packages.
-```
+``` bash
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 

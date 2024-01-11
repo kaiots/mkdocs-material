@@ -32,10 +32,6 @@ theme:
 
 
   palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
     - scheme: default
       primary: indigo
       accent: indigo
@@ -48,6 +44,11 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+
+
+
+    
   font:
     text: Roboto
     code: Roboto Mono

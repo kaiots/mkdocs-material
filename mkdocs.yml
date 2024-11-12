@@ -1,4 +1,5 @@
 site_name: Инструкция
+site_url: kaiots.github.io
 theme:
   favicon: assets/favicon.png
   logo: assets/logo.png
